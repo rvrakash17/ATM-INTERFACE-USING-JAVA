@@ -17,24 +17,27 @@ This project is an ATM Interface implemented in Java as part of OASIS INFOBYTE T
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/atm-interface-java.git
+   ```
 
 2. **Navigate to the project directory:**
    ```bash
    cd atm-interface-java
+   ```
 
 3. **Compile the Java code:**
    ```bash
    javac ATM.java
+   ```
 
 4. **Run the application:**
    ```bash
    java ATM
-   
+   ```
 
 ## Usage Instructions
 
-**Login:**
-Enter your name, password, and the last 4 digits of your account number.
+1. **Login:**
+- Enter your name, password, and the last 4 digits of your account number.
 
 Example:
 ```plaintext
@@ -42,29 +45,29 @@ Example:
       Enter your password here: 1234
       Enter Account Number only last 4 digits: 5678
 ```
-**Withdraw:**
-Enter the amount to withdraw.
+2. **Withdraw:**
+- Enter the amount to withdraw.
 
 Example:
    ```bash
         Enter the amount to be withdrawn: 1000
 ```
-**Check Balance:**
-View the current balance of the account.
+3. **Check Balance:**
+- View the current balance of the account.
 
 Example:
   ```bash
       Balance: 49000
 ```
-**Deposit:**
-Enter the amount to deposit.
+4. **Deposit:**
+- Enter the amount to deposit.
 
 Example:
    ```bash
 Enter money to be deposited: 2000
 ```
-**Transfer:**
-Enter the recipient's name and the amount to transfer.
+5. **Transfer:**
+- Enter the recipient's name and the amount to transfer.
 
 Example:
    ```bash
